@@ -3,5 +3,6 @@ Flow Maps
 Node-link diagrams
 Adjacency Diagrams
 Enclosure Diagrams
+Circle-packing layouts
 Arc Diagrams
 Force-directed Layouts
