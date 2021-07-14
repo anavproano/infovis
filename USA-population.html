@@ -1,6 +1,4 @@
-embed = require("vega-embed@6")
-
-vlspec = ({
+{
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A bar chart showing the US population distribution of age groups and gender in 2000.",
   "data": { "url": "https://vega.github.io/vega-lite/examples/data/population.json"},
@@ -23,6 +21,4 @@ vlspec = ({
     },
     "opacity": {"value": 0.7}
   }
-})
-
-viewof view = embed(vlspec)
+}
