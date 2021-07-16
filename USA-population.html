@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Poblacion por Departamento</title>
+</head>
+<body>
+  
+<div id="observablehq-viewof-view-f9807241"></div>
+<div id="observablehq-embed-f9807241"></div>
+<div id="observablehq-vlspec-f9807241"></div>
+<div id="observablehq-viewof-year-f9807241"></div>
+
+<div id="observablehq-viewof-view-f9807241"></div>
+<div id="observablehq-viewof-year-f9807241"></div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/a8cbc8d0ff41005a.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "viewof view") return new Inspector(document.querySelector("#observablehq-viewof-view-f9807241"));
+  if (name === "viewof year") return new Inspector(document.querySelector("#observablehq-viewof-year-f9807241"));
+  return ["vlspec"].includes(name);
+});
+</script>
+  
+</body>
+</html>
