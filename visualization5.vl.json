@@ -1,0 +1,174 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-52d04fc863866148b72a28ecc2d02f8d"},
+  "mark": "bar",
+  "encoding": {
+    "color": {
+      "type": "nominal",
+      "field": "residencia_provincia_nombre",
+      "legend": null
+    },
+    "tooltip": [
+      {"type": "nominal", "field": "residencia_provincia_nombre"},
+      {"type": "quantitative", "field": "letalidad(%)"}
+    ],
+    "x": {"type": "quantitative", "field": "letalidad(%)"},
+    "y": {
+      "type": "nominal",
+      "field": "residencia_provincia_nombre",
+      "sort": "-x",
+      "title": "Provincias"
+    }
+  },
+  "height": 500,
+  "title": "Tasa de Letalidad (%)",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json",
+  "datasets": {
+    "data-52d04fc863866148b72a28ecc2d02f8d": [
+      {
+        "residencia_provincia_nombre": "Buenos Aires",
+        "Fallecidos": 52094,
+        "Casos Confirmados": 1966784,
+        "letalidad(%)": 3
+      },
+      {
+        "residencia_provincia_nombre": "Ciudad Autónoma de Buenos Aires",
+        "Fallecidos": 10887,
+        "Casos Confirmados": 488056,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Catamarca",
+        "Fallecidos": 482,
+        "Casos Confirmados": 42313,
+        "letalidad(%)": 1
+      },
+      {
+        "residencia_provincia_nombre": "Chaco",
+        "Fallecidos": 2006,
+        "Casos Confirmados": 91277,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Chubut",
+        "Fallecidos": 1306,
+        "Casos Confirmados": 76383,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Corrientes",
+        "Fallecidos": 893,
+        "Casos Confirmados": 80722,
+        "letalidad(%)": 1
+      },
+      {
+        "residencia_provincia_nombre": "Córdoba",
+        "Fallecidos": 6116,
+        "Casos Confirmados": 467453,
+        "letalidad(%)": 1
+      },
+      {
+        "residencia_provincia_nombre": "Entre Ríos",
+        "Fallecidos": 2140,
+        "Casos Confirmados": 127800,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Formosa",
+        "Fallecidos": 1015,
+        "Casos Confirmados": 55963,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Jujuy",
+        "Fallecidos": 1315,
+        "Casos Confirmados": 43433,
+        "letalidad(%)": 3
+      },
+      {
+        "residencia_provincia_nombre": "La Pampa",
+        "Fallecidos": 838,
+        "Casos Confirmados": 61299,
+        "letalidad(%)": 1
+      },
+      {
+        "residencia_provincia_nombre": "La Rioja",
+        "Fallecidos": 786,
+        "Casos Confirmados": 28337,
+        "letalidad(%)": 3
+      },
+      {
+        "residencia_provincia_nombre": "Mendoza",
+        "Fallecidos": 3923,
+        "Casos Confirmados": 153861,
+        "letalidad(%)": 3
+      },
+      {
+        "residencia_provincia_nombre": "Misiones",
+        "Fallecidos": 556,
+        "Casos Confirmados": 30880,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Neuquén",
+        "Fallecidos": 2016,
+        "Casos Confirmados": 107343,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Río Negro",
+        "Fallecidos": 2083,
+        "Casos Confirmados": 92142,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Salta",
+        "Fallecidos": 2085,
+        "Casos Confirmados": 75017,
+        "letalidad(%)": 3
+      },
+      {
+        "residencia_provincia_nombre": "San Juan",
+        "Fallecidos": 944,
+        "Casos Confirmados": 60852,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "San Luis",
+        "Fallecidos": 1222,
+        "Casos Confirmados": 74871,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Santa Cruz",
+        "Fallecidos": 934,
+        "Casos Confirmados": 57794,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Santa Fe",
+        "Fallecidos": 7850,
+        "Casos Confirmados": 446841,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Santiago del Estero",
+        "Fallecidos": 1047,
+        "Casos Confirmados": 73392,
+        "letalidad(%)": 1
+      },
+      {
+        "residencia_provincia_nombre": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "Fallecidos": 467,
+        "Casos Confirmados": 31085,
+        "letalidad(%)": 2
+      },
+      {
+        "residencia_provincia_nombre": "Tucumán",
+        "Fallecidos": 2564,
+        "Casos Confirmados": 180504,
+        "letalidad(%)": 1
+      }
+    ]
+  }
+}
