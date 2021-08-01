@@ -10,11 +10,20 @@
    
   <div id="vis1"></div>
   <div id="vis2"></div>
+  <div id="vis3"></div>
+  <div id="vis4"></div>
+  <div id="vis5"></div>
   <script>
     const spec1 = "visualization1.vl.json";
-    const spec2 = "visualization2.vl.json";	  
-  	vegaEmbed("#vis1", spec1)
+    const spec2 = "visualization2.vl.json";	
+    const spec3 = "visualization3.vl.json";
+    const spec4 = "visualization4.vl.json";
+    const spec5 = "visualization5.vl.json";
+ 	vegaEmbed("#vis1", spec1)
 	vegaEmbed("#vis2", spec2)
+        vegaEmbed("#vis3", spec3)
+	vegaEmbed("#vis4", spec4)
+	vegaEmbed("#vis5", spec5)  
     	// result.view provides access to the Vega View API
       .then(result => console.log(result))
       .catch(console.warn);
