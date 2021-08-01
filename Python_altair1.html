@@ -7,7 +7,16 @@
 </head>
 
 <body>  
-  	
+   
+  <div id="vis"></div>
+  <script>
+    const spec = "visualization1.vl.json";
+  	vegaEmbed("#vis", spec)
+    	// result.view provides access to the Vega View API
+      .then(result => console.log(result))
+      .catch(console.warn);
+  </script>
+	
   <div id="vis"></div>
   <script>
     const spec = "visualization2.vl.json";
