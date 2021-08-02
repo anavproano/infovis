@@ -7,15 +7,15 @@
 </head>
 <body>
 
-<div id="observablehq-viewof-view-bb868bfa"></div>
-<div id="observablehq-viewof-year-bb868bfa"></div>
+<div id="observablehq-viewof-view-9306369b"></div>
+<div id="observablehq-viewof-year-9306369b"></div>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/@anavproano/demo-vega-lite-embebido-test-2.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "viewof view") return new Inspector(document.querySelector("#observablehq-viewof-view-bb868bfa"));
-  if (name === "viewof year") return new Inspector(document.querySelector("#observablehq-viewof-year-bb868bfa"));
+  if (name === "viewof view") return new Inspector(document.querySelector("#observablehq-viewof-view-9306369b"));
+  if (name === "viewof year") return new Inspector(document.querySelector("#observablehq-viewof-year-9306369b"));
   return ["vlspec"].includes(name);
 });
 </script>
